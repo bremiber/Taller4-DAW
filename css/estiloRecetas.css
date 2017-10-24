@@ -1,0 +1,117 @@
+body{
+	width: 80%;
+	margin:auto;
+	background-image: url('imagenes/fondo.png');
+	background-size: 20% auto;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}
+body::after{
+	opacity: .5;
+}
+
+hr.doted{
+	border-style: dotted;
+	height: 1px;
+    color:  #F79F81;
+    clear: left;
+}
+
+hr{
+	height: 1px;
+    color:  #585858;
+    clear: left;
+}
+
+header ~ div{
+	border-radius: 15px;
+}
+
+.resumen{ 
+padding: 10px; 
+margin: 10px;
+width: 250px;
+height: 270px;
+border: 1pt solid #cbccc1;
+background-color: #F5FFFA;
+float: left;
+}
+div.resumen:hover{
+	opacity: 0.7;
+}
+
+
+*{
+	font-size: 100%;
+	font-family: 'Verdana', sans-serif;
+}
+
+
+img{
+	float: left;
+	margin: 10px;
+	height: 350px;
+	width: 450px;
+
+}
+
+.categoria{
+	color: #d69f2a;
+	padding-top: 80px;
+
+}
+p ~ p{
+	padding-bottom: 10px;
+} 
+
+.description{
+	padding-top: : 2px;
+	display: block;
+	text-align: justify;
+	padding-top: 5px;
+	display: block;
+	
+}
+
+#titulo-sitio{ 
+	font-family: 'Anton', sans-serif;
+	
+	color: #d39a0a;
+	font-size: 4em;
+	text-shadow: 2px 2px #bc8609;
+}
+
+.subrayar{
+	text-decoration: underline;
+}
+
+div.resumen div a{ 
+	font-family: 'Helvetica', sans-serif;
+	font-variant:small-caps;
+	color:  #db990a
+
+	
+}
+div.resumen div a:hover{
+	text-decoration: none;
+	color:  #edc163;
+}
+
+div.resumen div a:visited{
+	
+	color:  #7c652e;
+}
+
+
+h4{   
+	margin-bottom: 1px;
+	color:  #db990a;
+	font-size: 1em;
+}
+
+audio{
+	margin: 10px 0;
+}
+
+
